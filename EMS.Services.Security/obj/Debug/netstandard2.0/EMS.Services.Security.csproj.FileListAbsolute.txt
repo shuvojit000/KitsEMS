@@ -1,0 +1,8 @@
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\bin\Debug\netstandard2.0\EMS.Services.Security.deps.json
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\bin\Debug\netstandard2.0\EMS.Services.Security.dll
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\bin\Debug\netstandard2.0\EMS.Services.Security.pdb
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\obj\Debug\netstandard2.0\EMS.Services.Security.csprojAssemblyReference.cache
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\obj\Debug\netstandard2.0\EMS.Services.Security.AssemblyInfoInputs.cache
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\obj\Debug\netstandard2.0\EMS.Services.Security.AssemblyInfo.cs
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\obj\Debug\netstandard2.0\EMS.Services.Security.dll
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Services.Security\obj\Debug\netstandard2.0\EMS.Services.Security.pdb

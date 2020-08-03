@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.0": {
       "EMS.Application.Admin/1.0.0": {
         "dependencies": {
+          "EMS.Services.Security": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -312,6 +313,14 @@
         },
         "compile": {
           "EMS.Application.Admin.dll": {}
+        }
+      },
+      "EMS.Services.Security/1.0.0": {
+        "runtime": {
+          "EMS.Services.Security.dll": {}
+        },
+        "compile": {
+          "EMS.Services.Security.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -2010,6 +2019,11 @@
   },
   "libraries": {
     "EMS.Application.Admin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EMS.Services.Security/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

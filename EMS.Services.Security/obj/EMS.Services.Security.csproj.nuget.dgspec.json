@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {}
+    "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {}
   },
   "projects": {
-    "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {
+    "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj",
+        "projectUniqueName": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj",
         "projectName": "EMS.Services.Security",
-        "projectPath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj",
+        "projectPath": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\obj\\",
+        "outputPath": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

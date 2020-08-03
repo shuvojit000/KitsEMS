@@ -6,6 +6,7 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\EMS.Services.Security\EMS.Services.Security.csproj" />
   </ItemGroup>
 
 </Project>

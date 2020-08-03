@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{A24F8890-D551-11EA-A41A-1BD6E9701E6E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB6D3670-D551-11EA-A41A-1BD6E9701E6E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{B4A39C70-D551-11EA-A41A-1BD6E9701E6E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BC160B50-D551-11EA-A41A-1BD6E9701E6E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Admin.Web", "EMS.Admin.Web\EMS.Admin.Web.csproj", "{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E99F8950-D553-11EA-A41A-1BD6E9701E6E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,20 +16,5 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Debug|x64.Build.0 = Debug|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Debug|x86.Build.0 = Debug|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Release|x64.ActiveCfg = Release|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Release|x64.Build.0 = Release|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Release|x86.ActiveCfg = Release|Any CPU
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100}.Release|x86.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C0BFF516-A78C-44C0-9989-C7BAB3CBC100} = {AB6D3670-D551-11EA-A41A-1BD6E9701E6E}
 	EndGlobalSection
 EndGlobal

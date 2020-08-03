@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "EMS.Services.Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/EMS.Services.Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EMS.Services.Security.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EMS.Services.Security/1.0.0": {
+      "type": "project",
+      "path": "../EMS.Services.Security/EMS.Services.Security.csproj",
+      "msbuildProject": "../EMS.Services.Security/EMS.Services.Security.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "EMS.Services.Security >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\EMS.Application.Admin.csproj",
+      "projectUniqueName": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\EMS.Application.Admin.csproj",
       "projectName": "EMS.Application.Admin",
-      "projectPath": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\EMS.Application.Admin.csproj",
+      "projectPath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\EMS.Application.Admin.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\obj\\",
+      "outputPath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -30,7 +49,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {
+              "projectPath": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

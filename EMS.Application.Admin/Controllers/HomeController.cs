@@ -40,13 +40,12 @@ namespace EMS.Application.Admin.Controllers
         [HttpPost]
     public async Task<IActionResult> Login(string ssn)
     {
-        var user ;
-        if (user == null)
-        {
-            ModelState.AddModelError("", "User not found");
-            return View();
-        }
- ClaimsPrincipal
+        // var user ;
+        // if (user == null)
+        // {
+        //     ModelState.AddModelError("", "User not found");
+        //     return View();
+        // }
         var identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
         identity.AddClaim(new Claim(ClaimTypes.Name, ""));
         identity.AddClaim(new Claim(ClaimTypes.GivenName, ""));

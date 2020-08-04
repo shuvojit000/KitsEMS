@@ -36,3 +36,7 @@ d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\obj\Debug\netcoreapp3.0\EMS
 d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\EMS.Services.Security.dll
 d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\EMS.Services.Security.pdb
 d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\obj\Debug\netcoreapp3.0\Razor\Views\Home\LogIn.cshtml.g.cs
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll

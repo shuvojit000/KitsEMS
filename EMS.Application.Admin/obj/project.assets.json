@@ -202,8 +202,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {
-              "projectPath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj"
+            "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj": {
+              "projectPath": "D:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Services.Security\\EMS.Services.Security.csproj"
             }
           }
         }

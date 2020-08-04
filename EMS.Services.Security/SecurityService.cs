@@ -12,7 +12,7 @@ namespace EMS.Services.Security
         {
             _config = config;
         }
-        private string DbConnection=>_config.GetConnectionString("DbConnection");
+        private string DbConnection=>_config.GetConnectionString("DefaultConnection");
         public UserResponseDTO ValidateUser(LogInRequestDTO request)
         {
              using (var unitOfWork = new SecurityUnitOfWork(this.DbConnection))

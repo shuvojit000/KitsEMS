@@ -18,7 +18,7 @@ namespace EMS.Application.Admin.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ISecurityService securityService;
 
-        public HomeController(ILogger<HomeController> logger,SecurityService _securityService)
+        public HomeController(ILogger<HomeController> logger,ISecurityService _securityService)
         {
             _logger = logger;
             securityService=_securityService;
@@ -49,6 +49,10 @@ namespace EMS.Application.Admin.Controllers
             //     ModelState.AddModelError("", "User not found");
             //     return View();
             // }
+            var data=securityService.ValidateUser(new Services.Security.Request.LogInRequestDTO()
+            {
+                UserName="Shuvojit"
+            });
             var identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
             identity.AddClaim(new Claim(ClaimTypes.Name, ""));
             identity.AddClaim(new Claim(ClaimTypes.GivenName, ""));

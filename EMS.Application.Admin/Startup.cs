@@ -26,7 +26,7 @@ namespace EMS.Application.Admin
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IConfiguration>(Configuration); //add Configuration to our services collection
-            services.AddTransient<ISecurityService, SecurityService>();
+            services.AddSingleton<ISecurityService, SecurityService>();
             // Enable cookie authentication
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
             services.AddHttpContextAccessor();

@@ -6,6 +6,11 @@ namespace EMS.Services.Security
     
     public class SecurityUnitOfWork: IDisposable
     {
+        public SecurityUnitOfWork(string dbConnection)
+        {
+            this.DbConnection=dbConnection;
+        }
+        public string DbConnection{get;set;}
         private IUserRepository userRepository;
         public void Dispose() => GC.SuppressFinalize(this);
         public IUserRepository UserRepository
@@ -15,7 +20,7 @@ namespace EMS.Services.Security
                 if (this.userRepository == null)
                 {
 
-                    this.userRepository = new UserRepository();
+                    this.userRepository = new UserRepository(this.DbConnection);
                 }
 
                 return this.userRepository;

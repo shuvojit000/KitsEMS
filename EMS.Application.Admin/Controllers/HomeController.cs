@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EMS.Application.Admin.Models;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace EMS.Application.Admin.Controllers
 {
@@ -32,6 +35,35 @@ namespace EMS.Application.Admin.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public IActionResult LogIn()=>View();
+        [HttpPost]
+    public async Task<IActionResult> Login(string ssn)
+    {
+        var user ;
+        if (user == null)
+        {
+            ModelState.AddModelError("", "User not found");
+            return View();
+        }
+ ClaimsPrincipal
+        var identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
+        identity.AddClaim(new Claim(ClaimTypes.Name, ""));
+        identity.AddClaim(new Claim(ClaimTypes.GivenName, ""));
+        identity.AddClaim(new Claim(ClaimTypes.Surname, ""));
+ 
+        
+ 
+        var principal = new ClaimsPrincipal(identity);
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+ 
+        return RedirectToAction("Index","Home");
+    }
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+    
+            return RedirectToAction(nameof(LogIn));
         }
     }
 }

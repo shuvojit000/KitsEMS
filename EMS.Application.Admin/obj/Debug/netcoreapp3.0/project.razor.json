@@ -14384,6 +14384,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\Views\\Home\\LogIn.cshtml",
+      "TargetPath": "Views\\Home\\LogIn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Kits\\KitsEMSProject\\KitsEMS\\EMS.Application.Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

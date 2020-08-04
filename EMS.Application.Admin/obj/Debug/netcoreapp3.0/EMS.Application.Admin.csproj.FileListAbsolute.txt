@@ -35,3 +35,4 @@ d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\obj\Debug\netcoreapp3.0\EMS
 d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\obj\Debug\netcoreapp3.0\EMS.Application.Admin.csproj.CopyComplete
 d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\EMS.Services.Security.dll
 d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\bin\Debug\netcoreapp3.0\EMS.Services.Security.pdb
+d:\Kits\KitsEMSProject\KitsEMS\EMS.Application.Admin\obj\Debug\netcoreapp3.0\Razor\Views\Home\LogIn.cshtml.g.cs
